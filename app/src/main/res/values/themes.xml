@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--
+        Bare launch theme. The real UI theming is done in Compose (see ui/theme).
+        This only styles the short-lived launch window, so it stays minimal and
+        has no dependency on the Material Components XML library.
+    -->
+    <style name="Theme.CabBilling" parent="android:Theme.Material.Light.NoActionBar">
+        <item name="android:windowBackground">@color/window_background</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@color/window_background</item>
+    </style>
+</resources>
